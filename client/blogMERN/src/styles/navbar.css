@@ -1,0 +1,56 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Dark gray background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.items {
+    display: flex;
+    gap: 20px;
+}
+
+
+.links {
+    color: #fff; /* White text color for links */
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+}
+.links:hover{
+    text-decoration: underline;
+    /* font-size: 28px */
+}
+
+.userbtns button {
+    background-color: #007bff; /* Green background color */
+    margin: 10px;
+    border: none;
+    height: 45px;
+    width: 90px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+    border-radius: 5px;
+}
+.btns{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+
+}

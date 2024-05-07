@@ -1,0 +1,54 @@
+.update-blog {
+    max-width: 400px;
+    max-height: 540px;
+
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa; /* Light gray background color */
+}
+
+.update-blog-title {
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-bottom: 15px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    margin: 10px;
+    height: 480px;
+}
+.form-items {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn button {
+    background-color: #007bff; /* Blue button color */
+    color: #fff;
+    border: none;
+    /* padding: 10px 20px; */
+    font-size: 18px;
+    height: 37px;
+    width: 110px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

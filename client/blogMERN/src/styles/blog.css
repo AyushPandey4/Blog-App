@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light gray background color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.blog {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.descriptionblog {
+    margin-bottom: 10px;
+}
+
+.tag {
+    background-color: #007bff; /* Blue tag background color */
+    color: #fff; /* White text color for tags */
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.date {
+    color: #777; /* Gray color for date */
+    font-size: 14px;
+}

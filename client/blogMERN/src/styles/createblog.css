@@ -1,0 +1,60 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.create-blog-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.create-blog-form form {
+    /* padding: 20px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.form-items {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+.submit-btn button {
+    background-color: #007bff; /* Blue button color */
+    color: #fff;
+    border: none;
+    /* padding: 10px 20px; */
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 106px;
+    height: 43px;
+}
+
+.submit-btn button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

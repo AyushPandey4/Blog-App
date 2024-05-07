@@ -1,0 +1,25 @@
+.account-details {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa; /* Light gray background color */
+    margin-top: 50px;
+}
+
+.form-items {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+span {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* White background color */
+}
